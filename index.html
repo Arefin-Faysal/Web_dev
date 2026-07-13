@@ -1,144 +1,296 @@
-<!DOCTYPE html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+<!doctype html>
 <html>
-<body>
-<table  border="1" cellpadding="1" cellspacing="1">
-    <thead>
-        <tr>
-            <th>Firm</th>
-            <th>Org</th>
-            <th>Lob</th>
-            <th>Sub Lob</th>
-            <th>Business Plans</th>
-            <th>Business Components</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td rowspan="12">XYZ</td> <td rowspan="5">CST</td>
-            <td rowspan="3">CT</td>
-            <td>ADS</td>
-            <td>1</td>
-            <td>10</td>
-        </tr>
-        <tr>
-            <td>BTO</td>
-            <td>2</td>
-            <td>15</td>
-        </tr>
-        <tr>
-            <td>CSI</td>
-            <td>3</td>
-            <td>6</td>
-        </tr>
-        <tr>
-            <td rowspan="2">VCT</td>
-            <td>ADS</td>
-            <td>4</td>
-            <td>10</td>
-        </tr>
-        <tr>
-            <td>BTO</td>
-            <td>5</td>
-            <td>15</td>
-        </tr>
-        <tr>
-            <td colspan="3" class="subtotal-label">Sub Total</td>
-            <td>6</td>
-            <td>15</td>
-        </tr>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>MD. Arefin Faysal Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#home">Arefin</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section id="home" class="hero d-flex align-items-center">
+      <div class="container text-center" data-aos="fade-up">
+        <img src="images/Faysal.jpeg" alt="Arefin Faysal" class="profile mb-3" />
+        <h1>MD. Arefin Faysal</h1>
+        <p class="hero-intro">
+          I am an ICT undergraduate with a strong interest in web development, robotics,
+          and emerging technologies. I enjoy building creative solutions, learning new
+          tools, and turning ideas into practical projects that make an impact.
+        </p>
+      </div>
+    </section>
+    <section id="about" class="container py-5" data-aos="fade-up">
+      <h2>About Me</h2>
+      <h4 class="mb-3"> Introduction</h4>
+      <p>
+        Hello! I am an undergraduate student in Information and Communication Technology (ICT)
+        with a strong passion for Artificial Intelligence and research. I enjoy learning new
+        technologies and applying them to solve real-world problems.
+      </p>
 
-        <tr>
-            <td rowspan="4">CST</td>
-            <td rowspan="3">CT</td>
-            <td>ADS</td>
-            <td>7</td>
-            <td>10</td>
-        </tr>
-        <tr>
-            <td>BTO</td>
-            <td>8</td>
-            <td>15</td>
-        </tr>
-        <tr>
-            <td>CSI</td>
-            <td>9</td>
-            <td>6</td>
-        </tr>
-        <tr>
-            <td>VCT</td>
-            <td>ADS</td>
-            <td>10</td>
-            <td>10</td>
-        </tr>
-        <tr>
-            <td colspan="3" class="subtotal-label">Sub Total</td>
-            <td>11</td>
-            <td>15</td>
-        </tr>
-    </tbody>
-</table>
+      <h4 class="mb-3"> Academic Background</h4>
+      <p>
+        I am currently pursuing my bachelor's degree in ICT, where I am building a solid
+        foundation in programming, data science, machine learning, and software development
+        through coursework and research.
+      </p>
 
-<br><h1>Home Work</h1><br>
+      <h4 class="mb-3"> Research Interests</h4>
+      <ul>
+        <li>Artificial Intelligence (AI)</li>
+        <li>Machine Learning (ML)</li>
+        <li>Deep Learning (DL)</li>
+        <li>Explainable AI (XAI)</li>
+        <li>Mental Health Prediction</li>
+        <li>Natural Language Processing (NLP)</li>
+      </ul>
 
-<table border="2" cellpadding="2" cellspacing="0">
-    <thead>
-        <tr>
-            <th rowspan="2">Days</th>
-            <th colspan="6">Time</th>
-        </tr>
-        <tr>
-            <th>8:00</th>
-            <th>9:00</th>
-            <th>10:00</th>
-            <th>11:00</th>
-            <th>11:30</th>
-            <th>12:30</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Mon</td>
-            <td>Course 1</td>
-            <td>Course 2</td>
-            <td>Course 3</td>
-            <td rowspan="5" align="center">B<br>R<br>E<br>A<br>K</td>
-            <td>Course 5</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>Tue</td>
-            <td colspan="2"></td>
-            <td>Course 2</td>
-            <td>Course 4</td>
-            <td>Course 1</td>
-        </tr>
-        <tr>
-            <td>Wed</td>
-            <td>Course 3</td>
-            <td colspan="2"></td>
-            <td>Course 2</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>Thr</td>
-            <td rowspan="2">Course 4</td>
-            <td>Course 2</td>
-            <td>Course 3</td>
-            <td colspan="2" rowspan="2" align="center">Thesis</td>
-        </tr>
-        <tr>
-            <td>Fri</td>
-            <td></td>
-            <td>Course 1</td>
-        </tr>
-    </tbody>
-</table>
+      <h4 class="mb-3"> Technical Skills</h4>
+      <p>
+        I am continuously improving my skills in Python, Machine Learning, Data Analysis,
+        Deep Learning, Data Preprocessing, Research Methodology, and Git & GitHub.
+      </p>
 
+      <h4 class="mb-3">Current Focus</h4>
+      <p>
+        I am currently working on a research project that aims to develop an explainable deep
+        learning framework for predicting depression severity among university students. My goal
+        is to build AI models that are both accurate and interpretable.
+      </p>
 
-</body>
+      <h4 class="mb-3">Career Goal</h4>
+      <p>
+        My long-term goal is to become an AI researcher and contribute to innovative research
+        that addresses real-world challenges. I also aspire to pursue higher studies and
+        collaborate on impactful research projects in the fields of AI and data science.
+      </p>
+
+      <h4 class="mb-3">Personal Philosophy</h4>
+      <p>
+        I believe that learning is a continuous journey. Every project, challenge, and research
+        opportunity helps me grow as a student, developer, and future researcher.
+      </p>
+    </section>
+    <section id="education" class="container py-5" data-aos="fade-up">
+      <h2 class="section-title">Education</h2>
+      <div class="row g-4">
+        <div class="col-lg-6">
+          <div class="edu-card">
+            <div class="edu-badge">SSC</div>
+            <h4>Govt Science High School</h4>
+            <p><strong>Passing Year:</strong> 2020</p>
+            <p><strong>Result:</strong> GPA 5.00</p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="edu-card">
+            <div class="edu-badge">HSC</div>
+            <h4>Hamdard Public College</h4>
+            <p><strong>Passing Year:</strong> 2022</p>
+            <p><strong>Result:</strong> GPA 5.00</p>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="edu-card highlight">
+            <div class="edu-badge">University</div>
+            <h4>Department of Information and Communication Technology</h4>
+            <p><strong>Current Student</strong></p>
+            <p><strong>Session:</strong> 2022–2023</p>
+            <p><strong>University:</strong> Mawlana Bhashani Science and Technology University, Tangail</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="skills" class="container py-5" data-aos="fade-up">
+      <h2 class="section-title">Skills</h2>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="skill-card">
+            <div class="skill-icon"><i class="bi bi-code-slash"></i></div>
+            <h4>Frontend</h4>
+            <p>HTML, CSS, Bootstrap, responsive UI design</p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 90%"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="skill-card">
+            <div class="skill-icon"><i class="bi bi-filetype-js"></i></div>
+            <h4>JavaScript</h4>
+            <p>DOM manipulation, interactive web experiences</p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 80%"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="skill-card">
+            <div class="skill-icon"><i class="bi bi-python"></i></div>
+            <h4>Python</h4>
+            <p>Automation, data handling, and AI-related work</p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 85%"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="skill-card">
+            <div class="skill-icon"><i class="bi bi-database"></i></div>
+            <h4>Database</h4>
+            <p>MySQL and structured data management</p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 75%"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="skill-card">
+            <div class="skill-icon"><i class="bi bi-cpu"></i></div>
+            <h4>Embedded Systems</h4>
+            <p>Arduino, electronics, and robotics projects</p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 78%"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="skill-card">
+            <div class="skill-icon"><i class="bi bi-shield-lock"></i></div>
+            <h4>Cyber Security</h4>
+            <p>Security awareness and learning modern defense concepts</p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 70%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="container py-5" data-aos="zoom-in">
+      <h2 class="section-title">Projects</h2>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="project-card">
+            <div class="project-badge">Web App</div>
+            <h4>Train Management System</h4>
+            <p>This project was built to simplify train-related operations by organizing routes, schedules, and passenger information in a more structured and user-friendly digital system. It highlights my interest in building practical solutions that improve everyday workflows.</p>
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>PHP</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="project-card">
+            <div class="project-badge">Quiz Platform</div>
+            <h4>Online Quiz System</h4>
+            <p>This platform was developed to create an engaging way to conduct quizzes online with features such as question handling, scoring, and a smooth user experience. The project reflects my focus on interactive web applications and user-centered design.</p>
+            <div class="project-tags">
+              <span>JavaScript</span>
+              <span>Bootstrap</span>
+              <span>MySQL</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="project-card">
+            <div class="project-badge">Robotics</div>
+            <h4>Line Following Robot</h4>
+            <p>This robotics project focuses on autonomous movement using sensors to detect and follow a path with accuracy. It demonstrates my interest in embedded systems, electronics, and turning engineering ideas into functioning hardware solutions.</p>
+            <div class="project-tags">
+              <span>Arduino</span>
+              <span>Sensor</span>
+              <span>Embedded</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="gallery" class="container py-5" data-aos="fade-up">
+      <h2>Gallery</h2>
+      <div class="row g-4">
+        <div class="col-md-4"><img src="images/grp1.jpeg" alt="Gallery 1" class="img-fluid rounded" /></div>
+        <div class="col-md-4"><img src="images/grp2.jpeg" alt="Gallery 2" class="img-fluid rounded" /></div>
+        <div class="col-md-4"><img src="images/grp3.jpeg" alt="Gallery 3" class="img-fluid rounded" /></div>
+      </div>
+    </section>
+    <section id="contact" class="container py-5" data-aos="fade-up">
+      <h2 class="section-title">Contact</h2>
+      <div class="row g-4">
+        <div class="col-lg-6">
+          <div class="contact-card">
+            <h4>Let's connect</h4>
+            <p>I'm always interested in collaborating on projects, sharing ideas, or discussing new opportunities in technology and research.</p>
+            <a href="mailto:Faysal.mbstu@gmail.com" class="contact-link">
+              <i class="bi bi-envelope-fill"></i> Faysal.mbstu@gmail.com
+            </a>
+            <a href="https://github.com/Arefin-Faysal" target="_blank" class="contact-link">
+              <i class="bi bi-github"></i> github.com/Arefin-Faysal
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="contact-card message-box">
+            <h4>Send a message</h4>
+            <form action="https://formspree.io/f/your-form-id" method="POST">
+              <div class="mb-3">
+                <label class="form-label">Name</label>
+                <input type="text" class="form-control" name="name" required />
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-control" name="email" required />
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Message</label>
+                <textarea class="form-control" name="message" rows="4" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-dark text-white text-center p-4">
+      Email: Faysal.mbstu@gmail.com | GitHub: github.com/Arefin-Faysal
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="js/script.js"></script>
+  </body>
 </html>
